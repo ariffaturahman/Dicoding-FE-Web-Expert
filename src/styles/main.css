@@ -1,0 +1,281 @@
+img {
+    display: block;
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body,
+html {
+    background-color: #dbe2ef;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100%;
+}
+
+.skip-link {
+    position: absolute;
+    top: -40px;
+    left: 0;
+    color: white;
+    padding: 8px;
+    z-index: 100;
+}
+
+.skip-link:focus {
+    top: 0;
+}
+
+
+/* --header-- */
+
+header {
+    min-height: 45px;
+}
+
+.head-inner {
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: left;
+}
+
+.head-title {
+    font-family: 'Pattaya', sans-serif;
+    text-align: left;
+    font-weight: 200;
+    font-size: 3em;
+    margin: 0.3em;
+    display: inline-block;
+    color: #112d4e;
+}
+
+.head-menu {
+    font-size: 32px;
+    margin: 10px auto;
+    display: block;
+    width: 10px;
+}
+
+header button {
+    border: none;
+    color: none;
+    background-color: #3f72af;
+}
+
+
+/* --Nav-- */
+
+.nav {
+    width: 100%;
+    /* margin-left: 0;
+    margin-right: 0; */
+    text-align: right;
+    background-color: #3f72af
+}
+
+.nav-list {
+    width: 100%;
+    padding: 3px;
+    margin: 2px;
+}
+
+.nav-title {
+    font-size: 20px;
+    width: 100%;
+    text-align: left;
+    line-height: 44px;
+    text-transform: uppercase;
+    margin-top: 50px;
+}
+
+.nav-item {
+    box-sizing: border-box;
+    display: inline-block;
+    width: 10%;
+    text-align: center;
+    line-height: 20px;
+}
+
+.nav a {
+    display: inline-block;
+    padding: 1.3em;
+    text-decoration: none;
+    color: #dbe2ef;
+}
+
+.nav a:hover {
+    text-decoration: underline;
+    color: #000;
+}
+
+
+/* Jumbotron */
+
+.jumbotron {
+    display: flex;
+    background-image: url("../public/images/heros/hero-image_4.jpg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+    text-align: center;
+    align-items: center;
+    min-height: 450px;
+}
+
+.jumbo-inner {
+    margin: 0 auto;
+    max-width: 1200px;
+}
+
+.jumbo-title {
+    width: 100%;
+    color: rgb(255, 255, 255);
+    font-weight: 500;
+    font-size: 42px;
+}
+
+.jumbo-tagline {
+    width: 100%;
+    color: #fff;
+    margin-top: 16px;
+    font-size: 20px;
+    font-weight: 300;
+}
+
+
+/* main */
+
+main {
+    width: 100%;
+    margin: 0 auto;
+}
+
+.content {
+    padding: 32px;
+}
+
+.content-tittle {
+    font-family: 'Lobster', cursive;
+    text-align: center;
+    font-size: 3em;
+    margin: 25px;
+}
+
+
+/* post */
+
+.post {
+    background-color: #f9f7f7;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    width: 100%;
+    border-radius: 5px;
+    overflow: hidden;
+    padding: 20px;
+}
+
+.post-box {
+    width: 100%;
+    height: 260px;
+    position: relative;
+}
+
+.post-item {
+    padding: 10px;
+}
+
+.post-pict {
+    width: 100%;
+    position: absolute;
+}
+
+.post-rating {
+    position: absolute;
+    margin: 0 auto;
+    padding: 5px;
+    border-radius: 3px;
+    background-color: #f34e4e;
+    bottom: 10px;
+    right: 0;
+    font-size: 12px;
+    color: rgb(255, 204, 62);
+}
+
+.post-city {
+    margin: 0 auto;
+    padding: 10px;
+    border-radius: 5px;
+    background-color: #3f72af;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    color: #fff;
+    text-decoration: none;
+    position: absolute;
+}
+
+.tittle-box {
+    width: 100%;
+    margin-top: 20px;
+}
+
+.post-title {
+    font-family: "Libre Baskerville", serif;
+    font-weight: 700;
+    margin-top: 5px;
+    transition: 0.3s opacity;
+    text-align: center;
+}
+
+.post-title:hover {
+    opacity: 0.5;
+}
+
+.post-title a {
+    text-decoration: none;
+    color: inherit;
+    width: 100%;
+    padding: 12px 20px;
+    margin: 0 auto;
+}
+
+.post-description {
+    font-family: "Open Sans", sans-serif;
+    margin-top: 24px;
+    font-size: 15px;
+    line-height: 30px;
+    text-align: justify;
+}
+
+footer {
+    background-color: #2c3e50;
+    width: 100%;
+    padding: 1em;
+    text-align: center;
+}
+
+footer h2 {
+    font-size: 1em;
+    color: rgb(206, 227, 245);
+}
+
+button {
+    box-sizing: border-box;
+    padding: 5px 10px;
+    margin-top: 20px;
+    min-width: 74px;
+    min-height: 44px;
+    border-radius: 5px;
+    text-align: center;
+    cursor: pointer;
+    color: white;
+    background-color: rgb(35, 108, 243);
+    transition: opacity 0.3s;
+}
+
+button:hover {
+    opacity: 0.7;
+}
