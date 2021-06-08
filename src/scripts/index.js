@@ -11,22 +11,22 @@ const drawer = document.querySelector('#drawer');
 const title = document.querySelector('.jumbo-title');
 
 menu.addEventListener('click', function(event) {
-    drawer.classList.toggle('open');
-    event.stopPropagation();
+  drawer.classList.toggle('open');
+  event.stopPropagation();
 });
 
 jumbotron.addEventListener('click', function() {
-    drawer.classList.remove('open');
+  drawer.classList.remove('open');
 });
 
 header.addEventListener('click', function() {
-    drawer.classList.remove('open');
+  drawer.classList.remove('open');
 });
 
 main.addEventListener('click', function() {
-    drawer.classList.remove('open');
+  drawer.classList.remove('open');
 });
 
 title.addEventListener('click', function() {
-    drawer.classList.remove('open');
+  drawer.classList.remove('open');
 });
