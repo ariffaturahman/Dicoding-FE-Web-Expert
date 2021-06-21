@@ -15,7 +15,7 @@ data.restaurants.forEach((restaurant) => {
         </div>
         <div class="post-item">
             <p class="post-description" tabindex="0">
-            ${resto.description.substring(0, 600)}...</p>
+            ${resto.description.substring(0, 200)}...</p>
             <button>Read More</button>
         </div>
     </article>
